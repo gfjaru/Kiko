@@ -1,0 +1,36 @@
+# # # # # # # #
+#   K i k o   #
+# # # # # # # #
+
+# Basic
+name:               "Kiko"
+permalink:          /:year/:month/:day/:title.html
+
+# URL
+url:                "http://127.0.0.1:4000"
+baseurl:            "/Kiko"
+#baseurl:            "" #For Root Domain
+
+# Navigation
+nav:
+  - name:           "About"
+    href:           "/about"
+
+# Sass
+sass:
+  style:            :compressed
+
+# Scopes
+defaults:
+  -
+    scope:
+      path:         ""
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      path:         ""
+      type:         "posts"
+    values:
+      layout:       "post"
