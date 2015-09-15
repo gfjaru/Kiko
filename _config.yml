@@ -34,3 +34,6 @@ defaults:
       type:         "posts"
     values:
       layout:       "post"
+
+# Markdown
+markdown:           rdiscount
