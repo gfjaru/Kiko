@@ -4,11 +4,14 @@
 
 # Basic
 name:               "Kiko"
-permalink:          /:year/:month/:day/:title.html
 
 # URL
 baseurl:            "/Kiko"
 #baseurl:            "" #For Root Domain
+permalink:          /:year/:month/:day/:title.html
+
+# Markdown
+markdown:           rdiscount
 
 # Navigation
 nav:
@@ -33,6 +36,3 @@ defaults:
       type:         "posts"
     values:
       layout:       "post"
-
-# Markdown
-markdown:           rdiscount
