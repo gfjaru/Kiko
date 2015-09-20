@@ -7,14 +7,13 @@ name:               "Kiko"
 permalink:          /:year/:month/:day/:title.html
 
 # URL
-url:                "http://127.0.0.1:4000"
 baseurl:            "/Kiko"
 #baseurl:            "" #For Root Domain
 
 # Navigation
 nav:
   - name:           "About"
-    href:           "/about"
+    href:           "//gfjaru.github.io/Kiko/about"
 
 # Sass
 sass:
