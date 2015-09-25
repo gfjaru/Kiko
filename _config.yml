@@ -17,6 +17,8 @@ markdown:           rdiscount
 nav:
   - name:           "About"
     href:           "//gfjaru.github.io/Kiko/about"
+  - name:           "About"
+    href:           "//github.com/gfjaru/Kiko/releases"
 
 # Sass
 sass:
