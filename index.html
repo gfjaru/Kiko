@@ -12,6 +12,9 @@ layout: default
   </nav>
 </header>
 <div class="content list">
+{% if site.posts.size == 0 %}
+  <h2>No post found</h2>
+{% else %}
 {% for post in site.posts %}
   <div class="list-item">
     <h2 class="list-post-title">
@@ -22,4 +25,5 @@ layout: default
     </div>
   </div>
 {% endfor %}
+{% endif %}
 </div>
