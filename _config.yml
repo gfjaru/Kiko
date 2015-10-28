@@ -16,7 +16,7 @@ markdown:           rdiscount
 # Navigation
 nav:
   - name:           "About"
-    href:           "//gfjaru.github.io/Kiko/about"
+    href:           "//kiko.gfjaru.com/about"
   - name:           "Download"
     href:           "//github.com/gfjaru/Kiko/releases"
 
