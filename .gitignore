@@ -1,3 +1,15 @@
+# jekyll related files
 _site
+.jekyll-metadata
+
+# sass
 .sass-cache
+
+# ruby
 Gemfile.lock
+
+# webstorm
+.idea
+
+# mac
+.DS_Store

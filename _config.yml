@@ -1,40 +1,60 @@
-# # # # # # # #
-#   K i k o   #
-# # # # # # # #
+# General
+name                  : 'kamil'
+surname               : 'kalkakn'
+fullname              : 'kamilklkn'
+fullname_human        : 'Kamil Kalkan'
+domain                : 'http://kamilklkn.com'
+avatar                : 'general/avatar.jpg'
 
-# Basic
-name:               "Kiko"
+# Open Graph
+og_image              : 'general/og_image_default.png'
 
-# URL
-baseurl:            ""
-#baseurl:            "" #For Root Domain
-permalink:          /:year/:month/:day/:title.html
+# Paths
+paths                 : 
+  images              : '/assets/images/'
 
-# Markdown
-markdown:           rdiscount
+# Info
+description           : "Kamil Kalkan'ın kişisel web sitesi."
+keywords              : 'UI, UX, WEB'
 
-# Navigation
-nav:
-  - name:           "About"
-    href:           "//kiko.gfjaru.com/about"
-  - name:           "Download"
-    href:           "//github.com/gfjaru/Kiko/releases"
+# System
+timezone              : 'Europe/Istanbul'
+include               : ['_pages']
+
+# Filtering Content
+show_drafts           : null
+limit_posts           : 0
+
+# Conversion
+markdown              : kramdown
+excerpt_separator     : <!--more-->
+
+# Outputting
+baseurl               : ''
+permalink             : :title.html
 
 # Sass
-sass:
-  style:            :compressed
+sass                  :
+  style               : :compressed
 
 # Scopes
 defaults:
+  - 
+    scope             :
+      path            : ''
+      type            : 'pages'
+    values            :
+      layout          : 'page'
   -
-    scope:
-      path:         ""
-      type:         "pages"
-    values:
-      layout:       "page"
+    scope            :
+      path            : ''
+      type            : 'posts'
+    values            :
+      layout          : 'post'
+
   -
-    scope:
-      path:         ""
-      type:         "posts"
-    values:
-      layout:       "post"
+    scope            :
+      path            : ''
+      type            : 'drafts'
+    values            :
+      layout          : 'post'
