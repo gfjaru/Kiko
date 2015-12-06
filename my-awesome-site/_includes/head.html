@@ -1,0 +1,28 @@
+<head>
+{% capture cannonical_url %}{{site.domain}}{{page.url}}{% endcapture %}
+  {% capture description %}{% if page.excerpt %}{{page.excerpt | strip_html}}{% else %}{{site.description}}{% endif %}{% endcapture %}
+  <!-- Meta -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{site.fullname}} | {{page.title}}{% else %}{{site.fullname}}{% endif %}</title>
+   <meta name="description" content="{{description}}">
+  <meta name="keywords" content="{% if page.tags %}{{page.tags | join:', '}}{% else %}{{site.keywords}}{% endif %}">
+  <meta name="author" content="{{site.fullname_human}}">
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="canonical" href="{{cannonical_url}}" />
+  
+   <!-- Open Graph -->
+  <meta property="og:title" content="{% if page.title %}{{page.title}}{% else %}{{site.fullname}}{% endif %}"/>
+  <meta property="og:url" content="{{cannonical_url}}"/>
+  <meta property="og:site_name" content="{{site.fullname_human}}"/>
+  <meta property="og:description" content="{{description}}"/>
+  <meta property="og:image" content="{{site.domain}}{{site.paths.images}}{{site.og_image}}" />
+  <meta property="og:type" content="blog"/>
+  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:image:width" content="940" />
+  <meta property="og:image:height" content="492" />
+
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+</head>
