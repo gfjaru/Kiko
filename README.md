@@ -19,4 +19,3 @@
 ## License
 
 This theme is released under MIT License.
-
