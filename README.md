@@ -4,6 +4,11 @@
 
 [See it live](https://kiko.gfjaru.com/)
 
+## To do lists
+
+[] Convert to Ghost
+[] Convert to Jekyll 3.0
+
 ## Get Started
 
 1. Fork this repository
