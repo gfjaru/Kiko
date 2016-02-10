@@ -6,8 +6,9 @@
 
 ## To do lists
 
-[] Convert to Ghost
-[] Convert to Jekyll 3.0
+Convert to Ghost
+
+Convert to Jekyll 3.0
 
 ## Get Started
 
