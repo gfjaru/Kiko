@@ -17,15 +17,13 @@ Nunc nec aliquam tellus. Etiam faucibus magna nibh, ut fermentum velit consectet
 ## Dugem
 Nullam vehicula iaculis tortor, in cursus enim auctor vitae. Duis semper pulvinar justo, at vestibulum dolor. Cras fermentum nibh quis nisl imperdiet ornare. Sed nisi nunc, dictum sit amet gravida in, finibus rhoncus orci. Donec scelerisque commodo turpis ac venenatis.
 
-{% highlight js %}
-
+``` javascript
 function trigger_alert(){
   alert("Lorem Ipsum dolor sit amet");
 }
 
 trigger_alert();
-
-{% endhighlight %}
+```
 
 ### Golem
 Quisque sodales euismod nibh, gravida venenatis nibh dignissim eget. Morbi gravida enim vel lectus aliquet aliquet.
@@ -42,16 +40,11 @@ Cras fermentum nibh quis nisl imperdiet ornare. Sed nisi nunc, dictum sit amet g
 
 Nam ante lacus, ornare ut lacus in, aliquet gravida orci. Donec non dignissim elit. Integer facilisis lorem sed porttitor elementum. Etiam a eleifend justo.
 
-<dl>
-  <dt>HyperText Markup Language (HTML)</dt>
-  <dd>The language used to describe and define the content of a Web page</dd>
+kramdown
+: A Markdown-superset converter
 
-  <dt>Cascading Style Sheets (CSS)</dt>
-  <dd>Used to describe the appearance of Web content</dd>
-
-  <dt>JavaScript (JS)</dt>
-  <dd>The programming language used to build advanced Web sites and applications</dd>
-</dl>
+Maruku
+: Another Markdown-superset converter
 
 Sed nisi nunc, dictum sit amet gravida in, finibus rhoncus orci. Donec scelerisque commodo turpis ac venenatis.
 
@@ -61,31 +54,17 @@ Sed nisi nunc, dictum sit amet gravida in, finibus rhoncus orci. Donec scelerisq
 
 Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Rank</th>
-      <th>Score</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Cookie</td>
-      <td>#69</td>
-      <td>169</td>
-    </tr>
-    <tr>
-      <td>Buther</td>
-      <td>#70</td>
-      <td>169</td>
-    </tr>
-    <tr>
-      <td>Stuart</td>
-      <td>#71</td>
-      <td>168</td>
-    </tr>
-  </tbody>
-</table>
+|-----------------+------------+-----------------+----------------|
+| Default aligned |Left aligned| Center aligned  | Right aligned  |
+|-----------------|:-----------|:---------------:|---------------:|
+| First body part |Second cell | Third cell      | fourth cell    |
+| Second line     |foo         | **strong**      | baz            |
+| Third line      |quux        | baz             | bar            |
+|-----------------+------------+-----------------+----------------|
+| Second body     |            |                 |                |
+| 2 line          |            |                 |                |
+|=================+============+=================+================|
+| Footer row      |            |                 |                |
+|-----------------+------------+-----------------+----------------|
 
 Nullam quis risus eget urna mollis ornare vel eu leo.
