@@ -4,6 +4,16 @@
 
 # Basic
 name:               "Kiko"
+description:        "a clean, lightweight and minimalistic blog theme for jekyll"
+
+# jekyll-seo-tag, see: http://www.rubydoc.info/gems/jekyll-seo-tag/1.2.0
+url:                "//kiko.gfjaru.com"
+author:             "gfjaru"
+twitter:
+  username:         "gfjaru"
+#facebook:
+#  app_id:           1234
+#    publisher:      1234
 
 # URL
 baseurl:            ""
@@ -38,3 +48,6 @@ defaults:
       type:         "posts"
     values:
       layout:       "post"
+
+gems:
+  - jekyll-seo-tag
