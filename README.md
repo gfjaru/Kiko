@@ -6,11 +6,7 @@
 
 ## To do lists
 
-Convert to Ghost
-
-Convert to Tumblr
-
-Convert to Jekyll 3.0
+Next update is new theme based from Kiko.
 
 ## Get Started
 
