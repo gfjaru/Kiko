@@ -4,6 +4,10 @@
 
 [See it live](https://kiko.gfjaru.com/)
 
+## Kiko-plus
+
+https://github.com/AWEEKJ/Kiko-plus by. @AWEEKJ
+
 ## To do lists
 
 Next update is new theme based from Kiko.
