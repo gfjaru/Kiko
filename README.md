@@ -6,7 +6,7 @@
 
 ## Kiko-plus
 
-https://github.com/AWEEKJ/Kiko-plus by. @AWEEKJ
+https://github.com/AWEEKJ/Kiko-plus by. [@AWEEKJ](https://github.com/AWEEKJ)
 
 ## To do lists
 
