@@ -1,0 +1,23 @@
+# General
+name                  : 'kamil'
+surname               : 'kalkan'
+fullname              : 'kamilklkn'
+fullname_human        : 'Kamil Kalkan'
+domain                : 'http://kamilklkn.com'
+avatar                : 'general/avatar.jpg' 
+
+# Open Graph
+og_image              : 'general/og_image_default.png'
+ 
+# Site settings
+title: kamilklkn.com
+email: creator {et} kamilklkn {nokta} com
+description: > # this means to ignore newlines until "baseurl:"
+  Mobil UI/UX Developer & Web Developer
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://kamilklkn.com" # the base hostname & protocol for your site
+twitter_username: kamilklkn
+github_username:  kamilklkn
+
+# Build settings
+markdown: kramdown
