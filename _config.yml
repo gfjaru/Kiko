@@ -26,8 +26,10 @@ markdown:           kramdown
 # Navigation
 nav:
   - name:           "About"
-    href:           "//kiko.gfjaru.com/about"
+    remote:         false
+    localpath:      "about"
   - name:           "Download"
+    remote:         true
     href:           "//github.com/gfjaru/Kiko/releases"
 
 # Sass
